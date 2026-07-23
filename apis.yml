@@ -1,7 +1,15 @@
 aid: apusapps
 name: apusapps
-description: apusapps is a company surfaced as a portfolio company of qiming and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  APUS (apusapps.com) is a global mobile internet company founded in July 2014,
+  operating the APUS User System — an Android-based ecosystem of consumer utility
+  apps including APUS Launcher, Browser, Booster+, Message Center, Camera, Security
+  Elite, Flashlight, and Theme Store. APUS reaches over two billion users across
+  more than 200 countries and regions and supports 25+ languages, and was named
+  the "world's youngest unicorn" by the Wall Street Journal in 2015. It was surfaced
+  as a portfolio company of Qiming Venture Partners and added to the API Evangelist
+  network. APUS is a consumer mobile app developer and publishes no public developer
+  API, SDK, or documentation surface at this time.
 url: https://raw.githubusercontent.com/api-evangelist/apusapps/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +17,29 @@ x-backed-by:
 - qiming
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://images.apusapps.com/src/apus-group-logo-white.png
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Mobile
+- Android
+- Consumer Apps
+- Mobile Internet
+- Utility Apps
+- Launcher
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,4 +48,21 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://apusapps.com
+  url: https://www.apusapps.com
+- type: About
+  url: https://www.apusapps.com/en/about/
+- type: Blog
+  url: https://www.apusapps.com/en/news/
+- type: Support
+  url: https://www.apusapps.com/en/contact/
+- type: PrivacyPolicy
+  url: https://www.apusapps.com/en/privacy-policy/
+- type: TermsOfService
+  url: https://www.apusapps.com/en/terms-of-service/
+- type: DomainSecurity
+  url: security/apusapps-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
